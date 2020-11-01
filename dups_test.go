@@ -61,6 +61,6 @@ func Test_findDups(t *testing.T) {
 		secondResArray = res[0]
 	}
 
-	assert.EqualValues(t, firstArray, firstResArray)
-	assert.EqualValues(t, secondArray, secondResArray)
+	assert.ElementsMatch(t, firstArray, firstResArray)
+	assert.ElementsMatch(t, secondArray, secondResArray)
 }
