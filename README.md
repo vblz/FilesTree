@@ -26,7 +26,7 @@ test/2222 5 [file]
 test/a 96 [directory]
 test/a/123 4 [file]
 test/b 64 [directory]
-$ /ftree dups -d ex.db                                                                                                                                                                  Sat Oct 31 20:32:55 2020
+$ ./ftree dups -d ex.db                                                                                                                                                                  Sat Oct 31 20:32:55 2020
 test/a/123
 test/123
 ```
